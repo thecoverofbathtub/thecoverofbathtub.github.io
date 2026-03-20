@@ -25,6 +25,17 @@
         .report-content blockquote { border-left: 3px solid #6366f1; padding-left: 1rem; margin: 0.75rem 0; color: #94a3b8; }
         .report-content a { color: #818cf8; text-decoration: underline; }
         .report-content hr { border-color: #334155; margin: 1rem 0; }
+        /* Account tab styles */
+        .tab-btn { color: #94a3b8; background: transparent; border: 1px solid #334155;
+                   cursor: pointer; transition: all 0.2s; }
+        .tab-btn:hover { color: #e2e8f0; border-color: #475569; }
+        .tab-btn.active[data-color="slate"]   { background: #334155; color: #f1f5f9; border-color: #475569; }
+        .tab-btn.active[data-color="indigo"]  { background: #312e81; color: #a5b4fc; border-color: #4338ca; }
+        .tab-btn.active[data-color="emerald"] { background: #064e3b; color: #6ee7b7; border-color: #059669; }
+        .tab-btn.active[data-color="amber"]   { background: #78350f; color: #fcd34d; border-color: #d97706; }
+        .tab-content[data-color="indigo"]  { border-top: 2px solid #6366f1; }
+        .tab-content[data-color="emerald"] { border-top: 2px solid #10b981; }
+        .tab-content[data-color="amber"]   { border-top: 2px solid #f59e0b; }
     </style>
 </head>
 <body class="text-gray-300 px-4 py-6 sm:py-10">
@@ -42,31 +53,7 @@
                 <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
                 <script type="text/javascript"
                   src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                  async>{"symbol": "XLU", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
-              </div>
-            </div>
-            <div class="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden" style="height:220px">
-              <div class="tradingview-widget-container" style="height:100%;width:100%">
-                <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
-                <script type="text/javascript"
-                  src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                  async>{"symbol": "NTR", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
-              </div>
-            </div>
-            <div class="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden" style="height:220px">
-              <div class="tradingview-widget-container" style="height:100%;width:100%">
-                <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
-                <script type="text/javascript"
-                  src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                  async>{"symbol": "XLF", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
-              </div>
-            </div>
-            <div class="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden" style="height:220px">
-              <div class="tradingview-widget-container" style="height:100%;width:100%">
-                <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
-                <script type="text/javascript"
-                  src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                  async>{"symbol": "XLP", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
+                  async>{"symbol": "XOM", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
               </div>
             </div>
             <div class="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden" style="height:220px">
@@ -82,6 +69,30 @@
                 <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
                 <script type="text/javascript"
                   src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
+                  async>{"symbol": "EOG", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
+              </div>
+            </div>
+            <div class="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden" style="height:220px">
+              <div class="tradingview-widget-container" style="height:100%;width:100%">
+                <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+                <script type="text/javascript"
+                  src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
+                  async>{"symbol": "MU", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
+              </div>
+            </div>
+            <div class="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden" style="height:220px">
+              <div class="tradingview-widget-container" style="height:100%;width:100%">
+                <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+                <script type="text/javascript"
+                  src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
+                  async>{"symbol": "NVDA", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
+              </div>
+            </div>
+            <div class="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden" style="height:220px">
+              <div class="tradingview-widget-container" style="height:100%;width:100%">
+                <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+                <script type="text/javascript"
+                  src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
                   async>{"symbol": "CF", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
               </div>
             </div>
@@ -90,7 +101,7 @@
                 <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
                 <script type="text/javascript"
                   src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                  async>{"symbol": "XOM", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
+                  async>{"symbol": "NTR", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
               </div>
             </div>
             <div class="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden" style="height:220px">
@@ -98,7 +109,7 @@
                 <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
                 <script type="text/javascript"
                   src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                  async>{"symbol": "LMT", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
+                  async>{"symbol": "V", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
               </div>
             </div>
         </div>
@@ -109,135 +120,193 @@
         </div>
 
         <!-- Report Content -->
-        <div id="report" class="report-content bg-slate-800/50 border border-slate-700 rounded-xl p-5 sm:p-8"></div>
+        <div class="flex gap-2 mb-4 overflow-x-auto pb-1">
+            <button onclick="showTab('control')" id="tab-control" class="tab-btn active px-4 py-2 rounded-lg text-sm font-medium whitespace-nowrap" data-color="indigo">Control</button>
+            <button onclick="showTab('treatment_a')" id="tab-treatment_a" class="tab-btn px-4 py-2 rounded-lg text-sm font-medium whitespace-nowrap" data-color="emerald">Treatment A</button>
+            <button onclick="showTab('treatment_b')" id="tab-treatment_b" class="tab-btn px-4 py-2 rounded-lg text-sm font-medium whitespace-nowrap" data-color="amber">Treatment B</button>
+        </div>
 
-    <template id="report-md"># StockWatch Daily Report — 2026-03-19
+        <div id="content-control" class="tab-content report-content bg-slate-800/50 border border-slate-700 rounded-xl p-5 sm:p-8" data-color="indigo" style="display:block"></div>
+        <div id="content-treatment_a" class="tab-content report-content bg-slate-800/50 border border-slate-700 rounded-xl p-5 sm:p-8" data-color="emerald" style="display:none"></div>
+        <div id="content-treatment_b" class="tab-content report-content bg-slate-800/50 border border-slate-700 rounded-xl p-5 sm:p-8" data-color="amber" style="display:none"></div>
+
+    <template id="md-control"># Daily Report — Control Account — 2026-03-19
 
 ## Market Overview
 
-The Iran war&#x27;s 20th day brought a structural shift in global energy markets. Iran&#x27;s missile strikes damaged ~17% of Qatar&#x27;s LNG export capacity with a 3-5 year repair timeline — the single most consequential development. Israel pledged to stop targeting energy infrastructure after a Trump rebuke, offering the first credible de-escalation signal. Oil retreated from near-4-year highs (WTI ~$93.50) as the US weighed releasing sanctioned Iranian crude.
+Day 20 of the Iran war. The Strait of Hormuz remains closed. Oil pulled back from near-4-year highs (WTI ~$93.50) on de-escalation signals — Israel agreed to stop targeting energy infrastructure after Trump rebuke, and Treasury Secretary Bessent floated releasing sanctioned Iranian crude. But the structural damage is done: Qatar LNG capacity is 17% offline for 3-5 years. Every major central bank pivoted hawkish this week — Fed, ECB, BoE all holding, with ECB now discussing rate hikes for April. No rate cuts expected before 2027. S&amp;P 500 heading for its fourth consecutive losing week. Goldman warns bonds won&#x27;t hedge a correction. Gold down ~11% from highs as higher real rates overpower safe-haven demand.
 
-Central banks globally pivoted hawkish: Fed held with inflation warnings, ECB floated rate hikes as early as April, BoE unanimous hold with hawkish messaging. Market pricing: no rate cuts before 2027. Gold had its worst week in six years — counter-intuitively, energy is the war hedge, not gold. Goldman warns correction risks rising and bonds won&#x27;t help. BofA says Hormuz must reopen in days to avoid global recession.
+## Strategy (v2 — Stagflationary Energy Shock)
 
-**Intelligence themes:**
-1. Energy supply chain restructuring (Qatar LNG, Hormuz closure, Asia redirecting to US oil)
-2. Global hawkish pivot / stagflation regime (no cuts until 2027)
-3. AI capex reality check (Micron blowout but stock fell; Alibaba/Tencent -$66B)
+No changes to the strategy today — v2 was established earlier today and today&#x27;s fresh intelligence fully reinforces it. The core thesis of structural energy supply disruption, global hawkish pivot, and commodity outperformance remains intact. All 6 signals remain at LOW conviction (first day, two-speed discipline).
 
-## Account: Control
+**Key confirmation signals:**
+- Qatar LNG 17% capacity offline for up to 5 years (structural, not transient)
+- Micron&#x27;s 197% revenue growth confirms AI memory supercycle
+- BoE unanimous hawkish hold surprised markets
+- Jobless claims fell to 10-month lows (consumer resilience)
 
-### Strategy Changes (v1 → v2)
+## Trade Recommendations
 
-| Change | Detail |
-|--------|--------|
-| Macro thesis | &quot;Neutral&quot; → &quot;Stagflationary energy shock&quot; |
-| Energy allocation | 15% → 25% (structural supply disruption) |
-| NEW: Materials allocation | 0% → 15% (fertilizer squeeze + copper deficit) |
-| Technology | 25% → 20% (rate headwind) |
-| Healthcare | 20% → 15% (reallocation) |
-| Financials | 20% → 15% (mixed signals) |
-| Stop-loss | 7% → 5% (ELEVATED volatility tightening) |
-| Signals | 0 → 6 active (all LOW conviction, first day) |
+### Existing Positions Review
+| Ticker | Weight | Status | Action |
+|--------|--------|--------|--------|
+| XOM | 6.9% | Healthy, RSI 62 | HOLD — Core energy position |
+| XLV | 6.9% | Flat | HOLD — Healthcare allocation |
+| XLE | 6.0% | Stop flagged but price +0.5% above cost | HOLD — Pending buy order adding more |
+| LMT | 5.7% | RSI 42.5, mild pullback | HOLD — Defense beneficiary |
+| RTX | 5.0% | +1.9%, RSI 48 | HOLD — Defense beneficiary |
+| LIN | 4.9% | +1.0%, RSI 37 (oversold) | HOLD — Materials exposure |
+| MU | 4.4% | +4.1%, RSI 57 | HOLD — AI memory, signal active |
 
-### Trade Recommendations
+No positions need immediate attention. XLE stop flag appears spurious — price is above cost basis.
 
-#### SELL XLU (Utilities ETF) — All 128 shares
-**Why:** Utilities are bond proxies — the worst possible sector in a hawkish rate environment where central banks are discussing *hikes*. RSI 35 confirms weakness. The strategy explicitly identifies bond proxies and utilities as losers in this regime.
-**Why not:** Utilities provide defensive income. But in this specific macro setup, energy provides better defense AND upside.
-**Risk check:** Approved.
+### Pending Orders (already submitted, awaiting fill)
+- CF buy 4% — Fertilizer, sig-002
+- XLE buy 2% — Additional energy, sig-001
+- XLP buy 4% — Consumer staples
+- XLF buy 5% — Financials
+- NTR buy 5% — Fertilizer, sig-002
+- XLU sell 6% — Removing utilities (rate-sensitive in hawkish regime)
 
-#### BUY NTR (Nutrien) — 5% position (~$5,000)
-**Why:** Fertilizer supply squeeze from two directions: Hormuz disruption + China export curbs. NTR is North America&#x27;s largest fertilizer producer, domestically sourcing inputs. RSI 52 — neutral, best technical entry among candidates. Aligned with sig-002.
-**Why not:** Fertilizer stocks already moved on Hormuz news. If war resolves quickly, the thesis weakens.
-**Expected return:** 10-15% over 3 months if supply disruption persists.
-**References:** Digest signals 1, 2; sig-002; MarketBeat fertilizer analysis.
-**Tier:** Satellite (alpha from supply disruption, not mega-cap consensus).
-**Risk check:** Approved at 5%.
+### New Recommendations (2 trades, 4 remaining budget → 2 saved for Monday)
 
-#### BUY XLF (Financial Select Sector SPDR) — 5% position (~$5,000)
-**Why:** Financials sector filling at deeply oversold levels (RSI 23). Higher rates benefit net interest margins. US regulators slashing capital requirements is a near-term earnings catalyst. Aligned with sig-003.
-**Why not:** Recession risk hurts loan books. Banks could face credit deterioration if energy shock triggers slowdown.
-**Expected return:** 8-12% from oversold bounce + sector rerating.
-**References:** FT bank capital rules; digest theme 2.
-**Tier:** Core (sector ETF for broad exposure).
-**Risk check:** Approved at 5%.
+**1. BUY NVDA at 4%**
+- **Why:** Technology sector is only 4.4% vs 20% target. NVDA is the highest-conviction AI infrastructure play. MU&#x27;s 197% revenue growth validates the supercycle. Chinese cloud price hikes (34%) confirm demand. SMCI smuggling charges reinforce US AI advantage.
+- **Why not:** Broad market selloff environment. Tech faces rate headwinds. NVDA trades at high multiples.
+- **Expected return:** 8-12% over 3 months if AI capex cycle continues
+- **Tier:** Core (part of tech 20% allocation)
+- **Stop:** $110 (~5% below current)
+- **Target:** $140
+- **References:** sig-005, [0327092512df], [c05da4b3686a], [bcb875ccc238]
 
-#### BUY XLP (Consumer Staples Select Sector SPDR) — 4% position (~$4,000)
-**Why:** Consumer resilience signals (Macy&#x27;s surprise growth, FedEx guidance raise) suggest the consumer is stronger than priced. XLP at RSI 12 is *extremely* oversold — the most oversold of any candidate. Consumer staples have pricing power to pass through costs.
-**Why not:** Energy costs squeeze consumer margins. Stagflation historically bad for all equities including staples.
-**Expected return:** 6-10% from extreme oversold bounce.
-**References:** Digest theme 4; sig-003 implications.
-**Tier:** Core (defensive sector ETF).
-**Risk check:** Approved at 4%.
+**2. BUY EOG at 5%**
+- **Why:** Energy sector needs building toward 25% target. EOG is a premier US E&amp;P with export capacity. Asia buying most US oil in 3 years. Structural Hormuz disruption benefits US producers.
+- **Why not:** RSI 80.8 is technically overbought. Energy has already run hard. Could pull back near-term.
+- **Expected return:** 10-15% over 3 months if oil stays &gt;$85
+- **Tier:** Core (part of energy 25% allocation)
+- **Stop:** $132 (~5% below current)
+- **Target:** $160
+- **References:** sig-001, [b4310e92578f], [44f22c1b6839]
 
-#### BUY XLE (Energy Select Sector SPDR, add to existing) — 2% additional (~$2,000)
-**Why:** Adding to energy to close the massive 18% sector gap. Already hold 6.0% — this brings it to the 8% max position limit. The structural energy thesis is the highest-conviction theme. Aligned with sig-001.
-**Why not:** RSI 74 means the position is technically overbought. Adding here is chasing momentum.
-**Expected return:** 5-10% as energy supply disruption persists.
-**References:** Digest signals 1; sig-001.
-**Tier:** Core.
-**Risk check:** Capped at 2% (6% existing + 2% = 8% max).
+### Post-Trade Portfolio Simulation
+| Metric | Current | After New Trades | After Pending Fill |
+|--------|---------|-----------------|-------------------|
+| Cash | 54% | ~45% | ~25% |
+| Energy | 6.9% | ~12% | ~14% |
+| Tech | 4.4% | ~8.4% | ~8.4% |
+| Materials | 4.9% | 4.9% | ~14% |
+| Financials | 0% | 0% | ~5% |
+| Consumer | 0% | 0% | ~4% |
+| Healthcare | 6.9% | 6.9% | 6.9% |
+| Industrials | 10.7% | 10.7% | 10.7% |
 
-#### BUY CF Industries (CF) — 4% position (~$4,000)
-**Why:** Second fertilizer play alongside NTR. CF is a pure-play nitrogen producer benefiting from the same dual supply squeeze (Hormuz + China). RSI 69 — approaching overbought but less extended than energy names. Provides diversification within the fertilizer thesis.
-**Why not:** Already adding NTR for the same thesis. CF has higher ATR ($8.85) meaning more volatile.
-**Expected return:** 10-15% if fertilizer supply squeeze persists.
-**References:** Digest signal 2; sig-002.
-**Tier:** Satellite.
-**Risk check:** Approved at 4%.
-
-### Risk Check Summary
-
-| Ticker | Action | Size | Risk Check | Notes |
-|--------|--------|------|------------|-------|
-| XLU | SELL | 6% | Approved | Full exit |
-| NTR | BUY | 5% | Approved | |
-| XLF | BUY | 5% | Approved | |
-| XLP | BUY | 4% | Approved | |
-| XLE | BUY | 2% | Capped 3%→2% | Max position limit (8%) |
-| CF | BUY | 4% | Approved | |
-
-### Post-Trade Portfolio Summary
-
-| Ticker | Weight | Sector | Notes |
-|--------|--------|--------|-------|
-| XLE | 8.0% | Energy | Added 2% |
-| XOM | 6.9% | Energy | Hold |
-| XLV | 6.9% | Healthcare | Hold |
-| LMT | 5.7% | Defense | Hold |
-| NTR | 5.0% | Materials | New |
-| XLF | 5.0% | Financials | New |
-| RTX | 5.0% | Defense | Hold |
-| LIN | 4.9% | Materials | Hold |
-| MU | 4.4% | Technology | Hold |
-| XLP | 4.0% | Consumer | New |
-| CF | 4.0% | Materials | New |
-| **Cash** | **~38%** | | Down from 54% |
-
-**Sector exposure after trades:**
-- Energy: ~15% (target 25% — still building)
-- Materials: ~14% (target 15% — near target)
-- Defense/Industrials: ~11% (no target, war-appropriate)
-- Healthcare: ~7% (target 15% — underweight)
-- Financials: ~5% (target 15% — starting position)
-- Technology: ~4% (target 20% — underweight)
-- Consumer: ~4% (target 10% — starting position)
-
-Cash remains high at ~38% — deliberate given ELEVATED volatility regime. Future sessions will continue deploying as signals mature past LOW conviction.
+## Risk Check Results
+- NVDA buy 4%: **APPROVED** — no violations
+- EOG buy 5%: **APPROVED** — no violations
+- Cash stays well above 15% minimum
+- No single position exceeds 8%
+- Daily budget: 4 remaining → 2 used → 2 saved
 
 ## Experiment Status
+- **Experiment 1** (Treatment A — Aggressive Energy Overweight): STARTED today. Review date: 2026-04-23.
+- **Experiment 2** (Treatment B — Defensive Cash-Heavy Contrarian): STARTED today. Review date: 2026-04-23.
+</template>
+    <template id="md-treatment_a"># Daily Report — Treatment A (Aggressive Energy Overweight) — 2026-03-19
 
-No active experiments. Single account mode (control only).
+## Strategy Summary
+Treatment A aggressively overweights energy (35% target) and materials (20%) vs control&#x27;s 25%/15%. The bet: the structural Hormuz/Qatar supply disruption rewards concentration in commodity producers.
+
+## Trade Recommendations (10 trades — initial portfolio deployment)
+
+**1. BUY XLE at 7%** — Energy ETF for broad sector exposure. RSI 73.8, trending strongly. sig-001.
+**2. BUY XOM at 7%** — Integrated major. RSI 62.3, healthier entry than pure E&amp;P names. sig-001.
+**3. BUY EOG at 7%** — US E&amp;P with export capacity. RSI 80.8 (overbought but structural thesis). sig-001.
+**4. BUY DVN at 6%** — US E&amp;P. RSI 75.6. Shale producer benefiting from Asian demand shift. sig-001.
+**5. BUY CF at 6%** — Fertilizer. RSI 68.5. Hormuz + China export curbs = dual supply squeeze. sig-002.
+**6. BUY NTR at 6%** — Fertilizer. RSI 51.9 (reasonable entry). Diversified ag inputs. sig-002.
+**7. BUY MOS at 5%** — Fertilizer. Completes the triple play on supply squeeze. sig-002.
+**8. BUY FCX at 5%** — Copper. Structural mine deficit (Grasberg, Cobre Panama). sig-006.
+**9. BUY MU at 5%** — AI memory. 197% revenue growth. Cross-signal with energy (data center power). sig-005.
+**10. BUY LMT at 5%** — Defense. Direct war beneficiary. RSI 42.5 (attractive entry).
+
+### Portfolio After All Trades
+- Energy: ~27% (XLE 7% + XOM 7% + EOG 7% + DVN 6%)
+- Materials: ~16% (CF 6% + NTR 6% + MOS 5% + FCX 5% — mapped to materials sector)
+- Technology: 5% (MU)
+- Defense: 5% (LMT)
+- Cash: ~41%
+- Total invested: ~59%
+
+Next session will deploy more to approach 35% energy / 20% materials targets.
+
+## Risk Checks — All 10 APPROVED, no violations.
+</template>
+    <template id="md-treatment_b"># Daily Report — Treatment B (Defensive Cash-Heavy Contrarian) — 2026-03-19
+
+## Strategy Summary
+Treatment B bets that the market is overselling quality names. Maintains 25% minimum cash, buys extreme-oversold quality (Visa RSI 16.4, XLP RSI 12.1), and takes modest energy/defense exposure. The contrarian thesis: stagflation fear is now consensus, which means it may be priced in.
+
+## Trade Recommendations (9 trades — initial portfolio deployment)
+
+**1. BUY V at 7%** — Visa near 52-week low, RSI 16.4 (extreme oversold). Superinvestors buying. Payments duopoly with pricing power. sig-b01.
+**2. BUY MSFT at 7%** — RSI 46.2, below 50-day SMA. Superinvestor top Q4 buy. Cloud/AI revenue growth. sig-b01.
+**3. BUY XLP at 6%** — Consumer staples ETF. RSI 12.1 (extreme oversold — nearly unprecedented). Defensive with pricing power. sig-b01.
+**4. BUY XLV at 6%** — Healthcare ETF. Defensive, demographic tailwinds. Uncorrelated to energy narrative.
+**5. BUY XLF at 6%** — Financials ETF. RSI 23.0 (deeply oversold). Banks benefit from higher-for-longer rates.
+**6. BUY LMT at 6%** — Defense. RSI 42.5. War beneficiary regardless of macro scenario.
+**7. BUY XLE at 5%** — Modest energy exposure. Can&#x27;t entirely ignore the structural thesis.
+**8. BUY MU at 5%** — AI memory. 197% revenue growth validates the supercycle.
+**9. BUY NTR at 5%** — Fertilizer. Most reasonable RSI (51.9) among fertilizer names.
+
+### Portfolio After All Trades
+- Quality Value: ~14% (V 7% + MSFT 7%)
+- Consumer/Healthcare: ~12% (XLP 6% + XLV 6%)
+- Financials: 6% (XLF)
+- Defense: 6% (LMT)
+- Energy: 5% (XLE)
+- Tech: 5% (MU)
+- Materials: 5% (NTR)
+- Cash: ~47%
+- Total invested: ~53%
+
+Cash at 47% is well above the 25% minimum — intentionally conservative on day 1. Will deploy more selectively as positions prove themselves.
+
+## Key Divergences from Control
+| Dimension | Control | Treatment B |
+|-----------|---------|-------------|
+| Cash target | 15% | 25%+ |
+| V (Visa) | 0% | 7% |
+| MSFT | 0% | 7% |
+| XLP | 4% (pending) | 6% |
+| Energy weight | ~14% (target 25%) | ~5% |
+| Stop-loss | 5% | 7% (wider for contrarian) |
+
+## Risk Checks — All 9 APPROVED, no violations.
 </template>
 
         <p class="text-center text-slate-600 text-xs mt-8 pb-4">Generated by StockWatch</p>
     </div>
 
     <script>
-        const md = document.getElementById('report-md').innerHTML;
-        const textarea = document.createElement('textarea');
-        textarea.innerHTML = md;
-        document.getElementById('report').innerHTML = marked.parse(textarea.value);
+        const sections = ["control", "treatment_a", "treatment_b"];
+        sections.forEach(id => {
+            const tmpl = document.getElementById('md-' + id);
+            if (tmpl) {
+                const textarea = document.createElement('textarea');
+                textarea.innerHTML = tmpl.innerHTML;
+                document.getElementById('content-' + id).innerHTML =
+                    marked.parse(textarea.value);
+            }
+        });
+        function showTab(id) {
+            document.querySelectorAll('.tab-content').forEach(
+                el => el.style.display = 'none');
+            document.querySelectorAll('.tab-btn').forEach(
+                el => el.classList.remove('active'));
+            document.getElementById('content-' + id).style.display = 'block';
+            document.getElementById('tab-' + id).classList.add('active');
+        }
     </script>
 </body>
 </html>
