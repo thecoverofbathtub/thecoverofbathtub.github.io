@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StockWatch — 2026-03-27</title>
+    <title>StockWatch — 2026-03-30</title>
     <script src="https://cdn.tailwindcss.com/3.4.16"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
@@ -43,11 +43,27 @@
         <div class="flex items-center justify-between mb-6">
             <a href="../" class="text-slate-500 hover:text-slate-300 text-sm">&larr; Home</a>
             <h1 class="text-xl sm:text-2xl font-bold text-white">StockWatch</h1>
-            <span class="text-slate-500 text-sm">2026-03-27</span>
+            <span class="text-slate-500 text-sm">2026-03-30</span>
         </div>
 
         <!-- Ticker Charts -->
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
+            <div class="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden" style="height:220px">
+              <div class="tradingview-widget-container" style="height:100%;width:100%">
+                <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+                <script type="text/javascript"
+                  src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
+                  async>{"symbol": "CF", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
+              </div>
+            </div>
+            <div class="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden" style="height:220px">
+              <div class="tradingview-widget-container" style="height:100%;width:100%">
+                <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+                <script type="text/javascript"
+                  src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
+                  async>{"symbol": "USO", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
+              </div>
+            </div>
             <div class="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden" style="height:220px">
               <div class="tradingview-widget-container" style="height:100%;width:100%">
                 <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
@@ -69,7 +85,7 @@
                 <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
                 <script type="text/javascript"
                   src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                  async>{"symbol": "ASML", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
+                  async>{"symbol": "AA", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
               </div>
             </div>
             <div class="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden" style="height:220px">
@@ -77,7 +93,7 @@
                 <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
                 <script type="text/javascript"
                   src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                  async>{"symbol": "MSFT", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
+                  async>{"symbol": "V", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
               </div>
             </div>
             <div class="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden" style="height:220px">
@@ -85,15 +101,7 @@
                 <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
                 <script type="text/javascript"
                   src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                  async>{"symbol": "GOOGL", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
-              </div>
-            </div>
-            <div class="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden" style="height:220px">
-              <div class="tradingview-widget-container" style="height:100%;width:100%">
-                <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
-                <script type="text/javascript"
-                  src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                  async>{"symbol": "NVS", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
+                  async>{"symbol": "AAPL", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
               </div>
             </div>
             <div class="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden" style="height:220px">
@@ -102,14 +110,6 @@
                 <script type="text/javascript"
                   src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
                   async>{"symbol": "RTX", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
-              </div>
-            </div>
-            <div class="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden" style="height:220px">
-              <div class="tradingview-widget-container" style="height:100%;width:100%">
-                <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
-                <script type="text/javascript"
-                  src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                  async>{"symbol": "LNG", "width": "100%", "height": "100%", "locale": "en", "dateRange": "1M", "colorTheme": "dark", "isTransparent": true, "autosize": true, "largeChartUrl": ""}</script>
               </div>
             </div>
         </div>
@@ -130,194 +130,186 @@
         <div id="content-treatment_a" class="tab-content report-content bg-slate-800/50 border border-slate-700 rounded-xl p-5 sm:p-8" data-color="emerald" style="display:none"></div>
         <div id="content-treatment_b" class="tab-content report-content bg-slate-800/50 border border-slate-700 rounded-xl p-5 sm:p-8" data-color="amber" style="display:none"></div>
 
-    <template id="md-control"># Daily Report — Control Account — 2026-03-27
+    <template id="md-control"># Daily Report — Control Account — 2026-03-30
 
 ## Market Overview
 
-VIX crossed 30.0 — **HIGH volatility regime**. Oil at $110 with Hormuz declared closed by Iran. Nasdaq in correction (10%+ from peak). S&amp;P 500 on 5th consecutive losing week. 60/40 portfolio worst month since 2022. Fed rate HIKE probability at 52%. Russian Baltic oil ports burning. JPMorgan projects physical oil shortages within 6 weeks. This is the most hostile market environment since the war began.
+Iran-Middle East conflict Week 5. Brent crude $115/bbl (up from $110 Thursday). Trump threatens Kharg Island seizure — most escalatory statement to date. Iran denies negotiations are happening, suggesting today&#x27;s 0.6% relief bounce is premature. Correction stands at Dow -10.6%, Nasdaq -12.8%, S&amp;P -9.1%. VIX 30.1 (HIGH regime continues).
+
+Key new signal: Goldman Sachs and FT independently argue rate expectations have overshot — markets have priced in &quot;a much larger hawkish shock than historical experience would suggest.&quot; Creates contrarian bond setup.
+
+## Strategy Changes (v8 → v9)
+
+- **sig-013 DEACTIVATED** — Memory semiconductor signal produced MU -13% (stop hit) and ASML -8.3%. Calibration failure.
+- **sig-003 downgraded** HIGHEST → HIGH — Goldman/FT rate overshoot challenges hawkish pivot pricing.
+- **Tech reduced** 15% → 12% — Calibration-forced after semiconductor losses.
+- **Cash raised** 20% → 22% — Calibration reckoning (14% recent, 1/7).
+- **Escalation** now 51% (first time &gt;50%) — Kharg Island threat, multi-front war reality.
+- **3 new signals:** Rate overshoot (LOW), aluminum supply crisis (LOW), consumer confidence collapse (LOW).
+
+## Trade Recommendations
+
+| Ticker | Action | Size | Status | Rationale |
+|--------|--------|------|--------|-----------|
+| CF | SELL (trim) | 2% | **Executed** | Target HIT, +10.8% gain, RSI 71.3 overbought. Mechanical profit-taking. |
+
+**Hold all other positions.** HIGH regime with 14% recent calibration = maximum caution. Sell prohibition on discretionary sells (calibration 0.25).
+
+### Position Review
+- **EOG** +7.6%, RSI 99.6 — Extremely overbought but structural thesis intact. HOLD per &quot;don&#x27;t sell energy&quot; lesson.
+- **OXY** +6.0% — HOLD. Energy thesis at $115 oil.
+- **LNG** +3.7% — HOLD. LNG cliff signal (HIGH conviction).
+- **NTR** +0.5%, target HIT — HOLD. Fertilizer supply squeeze, Hormuz closed.
+- **MP** -10.2%, stop 6.5% away — MONITOR. Close to stop. Rare earth thesis intact but position at risk.
+- **NVDA** -5.6%, RSI 27.3 — Oversold. HOLD. sig-005 MEDIUM conviction.
+- **RTX** -4.1%, stop 4.5% away — MONITOR. Defense demand confirmed but price weak.
+- **XLV** -2.2% — HOLD. Healthcare allocation.
+
+## Risk Check Results
+
+| Trade | Risk Check | Result |
+|-------|-----------|--------|
+| CF sell 2% | Approved | No violations |
+
+## Portfolio Summary
+
+| Metric | Value |
+|--------|-------|
+| Total value | ~$99,173 |
+| Cash | ~24% (after CF trim) |
+| Positions | 16 |
+| Daily trades used | 1 of 10 |
+| Top winner | CF +10.8% |
+| Top loser | MP -10.2% |
+| Regime | HIGH (VIX 30.1) |
+| Calibration | 14% recent (crisis) |
+
+## Watchlist
+
+- **MP** — stop $46, current $49, 6.5% buffer. If rare earth thesis weakens or stop hit, exit.
+- **RTX** — stop $180, current $188, 4.5% buffer. Defense demand confirmed but price not following.
+- **XLV** — stop $137, current $144, 4.9% buffer. Healthcare allocation, watch for sector-specific risk.
+</template>
+    <template id="md-treatment_a"># Daily Report — Treatment A Account — 2026-03-30
+
+## Market Overview
+
+Oil at $115/bbl — the pre-planned hedge trigger. Trump threatens Kharg Island seizure. Iran denies negotiations. Escalation probability at 54%, exceeding base case for the first time. Aluminum supply crisis goes mainstream (Bloomberg, Barrons, ING). AA at +10.2% validates our early commodity conviction.
 
 ## Strategy Changes (v7 → v8)
 
-- **REGIME CHANGE:** VIX 26.4 (ELEVATED) → 30.0 (HIGH)
-- **Energy conviction** promoted to HIGHEST (narrative) — $110 oil, two-front supply destruction
-- **Global hawkish pivot** promoted to HIGHEST — 52% Fed hike probability
-- **Technology** reduced 20% → 15% (conviction LOW) — Nasdaq correction, MSFT worst since 2008
-- **Healthcare** increased 15% → 18% — pharma M&amp;A wave (NVS $2B, MRK $6.7B, AZN win)
-- **Consumer** reduced 10% → 7%
-- **Cash minimum** raised 15% → 20% (HIGH regime)
-- **Stop-loss** tightened 4% → 3.5%
-- 3 new signals: pharma M&amp;A, Fed rate hike regime, shipping/tanker crisis
-- Escalation probability: 43% → 47%
+- **sig-a08 aluminum promoted** MEDIUM → HIGH — Day 7, AA +10.2%, 3 Tier 1/2 confirmations. The thesis has gone mainstream.
+- **sig-a11 peace trade promoted** MEDIUM → HIGH — Oil at $115 = AT the trigger zone. Deploy USO puts.
+- **Escalation** 50% → 54% — Exceeds base case. Kharg Island threat unprecedented.
+- **New sig-a14:** Aluminum goes mainstream (LOW).
 
 ## Trade Recommendations
 
-### 1. SELL ASML (full exit, ~4.0% of portfolio)
+| Ticker | Action | Size | Status | Rationale |
+|--------|--------|------|--------|-----------|
+| USO | BUY PUT ($120 strike, May 2026) | 2% | **Recorded** (options not paper-executable) | $115 oil triggers sig-a11 hedge. Insurance against peace-trade reversal. April 6 deadline 7 days away. |
 
-| Field | Value |
-|-------|-------|
-| Action | SELL |
-| Current weight | 4.0% |
-| P&amp;L | -5.0% |
-| Why | Tech conviction LOW. TurboQuant threatens memory/semiconductor (sig-013). Below both SMAs, MACD -10.8. Raises cash from 18% to ~22%, meeting HIGH regime 20% minimum. |
-| Why not | RSI 44.5 is neutral — not panic selling. ASML has long-term moat. But HIGH regime demands reducing lowest-conviction sectors. |
-| Risk check | APPROVED |
-| References | sig-013 (TurboQuant), strategy v8 tech LOW conviction |
+**Hold all energy/materials/fertilizer positions.** Don&#x27;t sell winners in structural trends. 71% accuracy validates patience.
 
-### 2. HOLD all other positions
+### Position Review
+- **CF** +11.5%, target HIT — HOLD. Don&#x27;t sell winners. Strategy says hold all fertilizer.
+- **DVN** +6.4%, target HIT, RSI 96.8 — Extremely overbought. HOLD per strategy, but note extreme RSI.
+- **XOM** +8.8%, RSI 89.6 — Strong. Approaching $180 target.
+- **EOG** +7.5%, RSI 99.6 — Extremely overbought. HOLD.
+- **AA** +10.2% — Aluminum thesis validated. HOLD.
+- **OXY** +6.0% — HOLD.
+- **SLB** +2.2% — HOLD.
+- **LNG** +2.4% — HOLD.
+- **NTR** +0.5%, target HIT — HOLD.
+- **MOS** -0.9% — HOLD. Fertilizer thesis intact.
+- **MP** -10.7% — Below cost, but stop at $18 (63% away). Wide stop appropriate for volatile materials name. Rare earth thesis holds.
 
-- **Energy (EOG, OXY, LNG, SLB):** Core thesis overwhelmingly confirmed at $110 oil. Hold.
-- **Materials (MOS, MP, NTR, CF):** Fertilizer thesis HIGHEST conviction. Targets HIT on NTR/CF but calibration lesson: don&#x27;t sell winners in structural trends.
-- **Defense (RTX, LMT, GD):** sig-007 MEDIUM. Not selling in HIGH regime — would add volatility to execute.
-- **XLV, XLF, XLP:** Defensive ETFs appropriate for HIGH regime.
-- **AAPL, NVDA:** Hold remaining tech. NVDA target HIT but only 3.7% weight.
+## Risk Check Results
 
-## Portfolio After Trades
+| Trade | Risk Check | Result |
+|-------|-----------|--------|
+| USO buy_put 2% | Approved | No violations |
 
-| Metric | Before | After |
-|--------|--------|-------|
-| Cash | 18% ($17,647) | ~22% (~$21,627) |
-| Positions | 17 | 16 |
-| Tech exposure | 11.8% | ~7.8% |
-| Largest position | XLV 7.7% | XLV 8.1% |
+## Portfolio Summary
 
-## Risk Summary
+| Metric | Value |
+|--------|-------|
+| Total value | $102,461 |
+| Cash | 28% (above 20% minimum) |
+| Positions | 12 + 1 options rec |
+| Daily trades used | 0 executed (1 options recorded) |
+| Top winner | CF +11.5% |
+| Top loser | MP -10.7% |
+| Regime | HIGH (VIX 30.1) |
+| Hit rate | 71% recent, 76% overall |
 
-- Cash moves above 20% minimum (HIGH regime requirement) ✓
-- No position exceeds 8% ✓
-- Stop-loss tightened to 3.5% for new positions
-- Daily trade budget: 9 remaining after 1 sell
-- Key watch: April 6 Iran deadline, oil approaching $120 peace-trade trigger
+## Key Risk: Peace Trade at $115+ Oil
+
+The USO put hedge is the single most important action today. With 38% of the portfolio in energy and oil at $115, a peace breakthrough would cause catastrophic drawdown. The $120 strike USO put (May expiry) provides insurance through the April 6 deadline and beyond. Cost: ~2% of portfolio. Potential payoff: protection against 15-20% energy gap-down.
+
+**Note:** Options trades cannot be paper-executed. This recommendation is recorded for tracking. In a live account, execute the USO May $120 put at market open.
 </template>
-    <template id="md-treatment_a"># Daily Report — Treatment A Account — 2026-03-27
+    <template id="md-treatment_b"># Daily Report — Treatment B Account — 2026-03-30
 
 ## Market Overview
 
-VIX 30.0 (HIGH regime). Oil $110 with Hormuz declared closed. Two-front oil infrastructure destruction: Hormuz + Russian Baltic ports burning. JPMorgan projects 6-week physical shortage. BlackRock warns $150 oil even if war ends. This is peak validation for our commodity supercycle thesis.
+VIX 30.1 continues to validate our defensive cash-heavy posture. 43% cash — the highest of all accounts. Goldman and FT say rate expectations have overshot, which is eventually bullish for quality names but timing is uncertain. Institutional consensus forming on bull case (Barclays, Ackman) but Iran denies negotiations — relief bounce built on sand.
 
-## Strategy Changes (v6 → v7)
+## Strategy Changes (v7 → v8)
 
-- **REGIME CHANGE:** VIX 26.6 (ELEVATED) → 30.0 (HIGH)
-- **sig-a07** (hawkish pivot) promoted MEDIUM → HIGH — 52% Fed hike, ECB warnings
-- **sig-a10** (Iraq collapse) promoted LOW → MEDIUM — Day 3
-- **sig-a11** (peace trade risk) promoted LOW → MEDIUM — oil $110 approaching $120 trigger
-- 2 new signals: shipping/tanker crisis, two-front oil destruction
-- **NO NEW POSITIONS** — HIGH regime constraint
-- Cash target raised 15% → 20%, stop-loss tightened 5% → 4%
-- Escalation probability maintained at 50%
+- **Buy calibration reckoning:** 0.53 demands stricter entry. Stop buying.
+- **sig-b06 off-price downgraded** MEDIUM → LOW — TJX -1.8%, ROST -2.1%. Sector calibration at 33.3%.
+- **sig-b01 narrowed** — Removed TJX, ROST. Now V, AAPL, WM only (calibration-confirmed).
+- **Off-price target reduced** 8% → 5%. Cash raised 30% → 32%.
+- **New signals:** sig-b12 dividend rotation (LOW), sig-b13 rate overshoot contrarian (LOW).
 
 ## Trade Recommendations
 
-### 1. TRIM FCX (~2% of portfolio)
+| Ticker | Action | Size | Status | Rationale |
+|--------|--------|------|--------|-----------|
+| V | SELL CALL ($315 strike, April 2026) | 1% | **Recorded** (options not paper-executable) | Covered call. VIX 30 = rich premiums. V at $298, RSI 30.9. Captures upside to $315. |
+| AAPL | SELL CALL ($260 strike, April 2026) | 1% | **Recorded** (options not paper-executable) | Covered call. VIX 30 = rich premiums. AAPL at $248, RSI 29.1. Income harvesting. |
 
-| Field | Value |
-|-------|-------|
-| Action | SELL (partial) |
-| Current weight | 5.1% |
-| P&amp;L | +4.2% |
-| Why | Materials sector at 31.7% exceeds 30% max sector limit. FCX target HIT. RSI 38.9 weakening, below both SMAs. Trimming the weakest materials name to bring sector under limit. |
-| Why not | Copper thesis still valid. FCX performing well at +4.2%. But risk limits are sacred — 30% sector max must be enforced. |
-| Risk check | APPROVED |
-| References | Risk parameter max_sector_pct 0.30, FCX target HIT |
+**Hold all other positions.** No new buys — 53% buy calibration says stop entering.
 
-### 2. HOLD ALL ENERGY (EOG, XOM, XLE, SLB, DVN, OXY, LNG)
+### Position Review
+- **V** -1.4%, RSI 30.9 — Near oversold. Quality anchor. Covered call to harvest premium.
+- **AAPL** +0.1%, RSI 29.1 — Oversold. Quality anchor. Covered call income.
+- **WM** +1.7% — Calibration-confirmed winner. HOLD.
+- **XLE** +5.3% — War hedge working. HOLD.
+- **XLV** -1.8%, stop 4.9% away — Healthcare defensive. MONITOR stop proximity.
+- **XLF** -1.4% — Rate environment supportive. HOLD.
+- **XLP** -0.3% — Defensive staples. HOLD.
+- **CAH** -0.9% — Healthcare. Not in active signals. HOLD for now.
+- **TJX** -1.0% — Downgraded to WATCH. Do not add. Tight stop at $145.
+- **ROST** -2.0% — Downgraded to WATCH. Do not add. Tight stop at $195.
+- **RTX** -2.5%, RSI 18.8 — Extremely oversold. Defense demand confirmed. HOLD.
 
-$110 oil + Hormuz closed + Russian ports burning + JPM shortage timeline. Don&#x27;t sell winners in structural trends.
+## Risk Check Results
 
-### 3. HOLD ALL MATERIALS (CF, NTR, MOS, AA, MP)
+| Trade | Risk Check | Result |
+|-------|-----------|--------|
+| V sell_call 1% | Approved | No violations |
+| AAPL sell_call 1% | Approved | No violations |
 
-Fertilizer HIGHEST conviction. Targets HIT on CF/NTR but thesis unbroken.
+## Portfolio Summary
 
-### 4. MONITOR: USO put hedge at $115 oil
+| Metric | Value |
+|--------|-------|
+| Total value | $98,230 |
+| Cash | 43% (well above 32% minimum) |
+| Positions | 11 + 2 options recs |
+| Daily trades used | 0 executed (2 options recorded) |
+| Top winner | XLE +5.3% |
+| Top loser | RTX -2.5% |
+| Regime | HIGH (VIX 30.1) |
+| Hit rate | 62% recent, 61% overall |
 
-Pre-planned hedge for peace-trade risk (sig-a11). Not executing today — oil at $110 gives $5 buffer. Ready for rapid deployment if oil approaches $115.
+## Divergence from Control
 
-## Portfolio After Trades
+This account continues to outperform control on risk management (43% cash vs 22%) but underperform on absolute returns ($98,230 vs $99,173). The trade-off is intentional — we&#x27;re optimizing for survivability in HIGH regime, not for return maximization. Our 100% sell calibration vs control&#x27;s 25% is the key differentiator in timing.
 
-| Metric | Before | After |
-|--------|--------|-------|
-| Cash | 23% ($23,477) | ~25% (~$25,500) |
-| Positions | 13 | 13 (FCX trimmed) |
-| Materials sector | 31.7% | ~29.7% ✓ |
-| Largest position | EOG 7.4% | EOG 7.6% |
-
-## Risk Summary
-
-- Cash above 20% minimum ✓
-- Materials brought under 30% max ✓
-- No position exceeds 8% ✓
-- Daily trade budget: 9 remaining
-- Key watch: Oil $115 = USO put hedge trigger; April 6 deadline
-</template>
-    <template id="md-treatment_b"># Daily Report — Treatment B Account — 2026-03-27
-
-## Market Overview
-
-VIX 30.0 validates our defensive cash-heavy posture. 60/40 worst month since 2022 — cash beats bonds as a hedge. Our 32% cash position is the structural advantage of this account. Nasdaq in correction and equity risk premium collapsed — rotation from growth to value/defensive underway.
-
-## Strategy Changes (v6 → v7)
-
-- **REGIME CHANGE:** VIX 26.6 (ELEVATED) → 30.0 (HIGH) — validates our posture
-- **sig-b07** (biotech M&amp;A) promoted LOW → MEDIUM — NVS $2B, MRK $6.7B, AZN win
-- **MSFT removed** from quality basket (sig-b01) — worst quarter since 2008, hiring freezes
-- New sig-b10: quality pharma as defensive haven (LOW)
-- New sig-b11: MSFT quality deterioration (risk signal, LOW)
-- Quality Value target reduced 35% → 30% (MSFT exit)
-- Healthcare target increased 5% → 8% (pharma M&amp;A wave)
-- Covered calls recommended on V, AAPL (harvest VIX 30 premiums)
-
-## Trade Recommendations
-
-### 1. SELL MSFT (full exit, ~6.2% of portfolio)
-
-| Field | Value |
-|-------|-------|
-| Action | SELL |
-| Current weight | 6.2% |
-| P&amp;L | -6.8% |
-| Why | Strategy explicitly removes MSFT from quality basket. Worst quarter since 2008 with hiring freezes in cloud/sales. AI capex vs DeepSeek disruption. Stop at $350 only 2.3% from current $358. sig-b11 risk signal. Fundamental deterioration overrides RSI 8.9 extreme oversold. |
-| Why not | RSI 8.9 is the most oversold reading in the portfolio — normally a buy signal for this thesis. SuperInvestors accumulating. Could bounce. But when the &quot;quality&quot; label no longer applies, mean reversion thesis doesn&#x27;t apply either. |
-| Risk check | APPROVED |
-| References | sig-b11 (MSFT deterioration), strategy v7 quality basket narrowing |
-
-### 2. SELL GOOGL (full exit, ~4.8% of portfolio)
-
-| Field | Value |
-|-------|-------|
-| Action | SELL |
-| Current weight | 4.8% |
-| P&amp;L | -5.3% |
-| Why | Not in any active Treatment B signal. Social media liability exposure (control sig-019). Stop at $270 only 3.0% from current $278. RSI 23.6 oversold but in structural decline below both SMAs. Does not meet sharpened quality criteria. |
-| Why not | GOOGL has massive cash position and AI leadership. RSI 23.6 is oversold. But not in our thesis — wrong name for this account. |
-| Risk check | APPROVED |
-| References | Not in sig-b01 quality basket, social media liability risk |
-
-### 3. HOLD all other positions
-
-- **V (6.9%):** Quality confirmed by calibration. Hold.
-- **AAPL (5.2%):** Quality + SCOTUS tariff positive. Hold.
-- **XLF (6.0%):** Rate hike benefits financials. Hold.
-- **XLP (6.1%), XLV (5.9%):** Defensive ETFs. Hold.
-- **XLE (5.3%):** War hedge. Hold.
-- **WM (5.1%):** Quality defensive. Hold.
-- **TJX (5.0%), ROST (3.9%):** Off-price retail thesis strengthening. Hold.
-- **RTX (2.9%):** Extreme oversold quality starter. Hold.
-- **CAH (4.9%):** Healthcare defensive. Hold.
-
-## Portfolio After Trades
-
-| Metric | Before | After |
-|--------|--------|-------|
-| Cash | 32% ($31,366) | ~43% (~$42,200) |
-| Positions | 13 | 11 |
-| Tech exposure | 11.4% | ~5.9% (AAPL only) |
-| Largest position | V 6.9% | V 7.9% |
-
-## Risk Summary
-
-- Cash at ~43% — well above 25% minimum. This is defensive but appropriate for HIGH regime with 60% hit rate.
-- No position exceeds 8% ✓
-- Daily trade budget: 8 remaining after 2 sells
-- Key watch: Private credit contagion (sig-b05 condition), RTX mean reversion, pharma M&amp;A opportunities when VIX normalizes
+**Note:** Options trades cannot be paper-executed. In a live account, sell covered calls on V ($315 April) and AAPL ($260 April) at market open.
 </template>
 
         <p class="text-center text-slate-600 text-xs mt-8 pb-4">Generated by StockWatch</p>
