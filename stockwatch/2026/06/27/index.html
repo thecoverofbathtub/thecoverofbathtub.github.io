@@ -131,7 +131,7 @@
       </div>
       <div class="band">
         <h2>Portfolio Snapshot</h2>
-        <p>Loaded Fidelity sheet data: 3 non-cash symbols across 4 account aliases. Schwab is disabled in the MVP configuration, so this is a Fidelity-only portfolio view.</p><div class="tags"><span class="tag">status: loaded</span><span class="tag">cash: $713,438</span><span class="tag">value: $985,474</span><span class="tag">holdings: 3</span></div><h3>Top Exposures</h3><table><thead><tr><th>Symbol</th><th>Weight</th></tr></thead><tbody><tr><td>92202V476</td><td>16.9%</td></tr><tr><td>WLCGIX</td><td>7.4%</td></tr><tr><td>VGSLX</td><td>3.4%</td></tr></tbody></table><p class="small muted"><strong>Sources:</strong> <a href="https://docs.google.com/spreadsheets/d/16RbYTLEiV8NER7pBYSU96CkQlCjB0bwnQKdrgvtJ4gg/edit">Fidelity Google Sheet: Fidelity_Portfolio_Positions_2026</a></p>
+        <p>Portfolio snapshot loaded and sanitized for public output. Private source links, exact values, and holding identifiers are omitted.</p><div class="tags"><span class="tag">status: loaded</span><span class="tag">cash: n/a</span><span class="tag">value: n/a</span><span class="tag">holdings: n/a</span></div><h3>Top Exposures</h3><table><thead><tr><th>Symbol</th><th>Weight</th></tr></thead><tbody></tbody></table><p class="small muted"><strong>Sources:</strong> Sanitized local portfolio source</p>
       </div>
     </section>
 
@@ -198,22 +198,14 @@
         <p><strong>Next review:</strong> 2026-07-02 after jobs data and semiconductor-sector reaction</p>
         <p class="small muted"><strong>Sources:</strong> <a href="https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-stock-market-tipping-point-eli-lilly-tesla/">IBD market week ahead</a></p>
       </div>
-    
-      <div class="recommendation">
-        <h3>92202V476</h3>
-        <div class="tags">
-          <span class="tag hold">hold</span>
-          <span class="tag">type: fund</span>
-          <span class="tag">conviction: medium</span>
-        </div>
-        <p><strong>Thesis:</strong> The Vanguard Target 2055 position appears to be the best existing core-style holding; keep it as the anchor while reviewing whether excess cash should be redeployed into similarly broad exposure.</p>
+<p><strong>Thesis:</strong> The Vanguard Target 2055 position appears to be the best existing core-style holding; keep it as the anchor while reviewing whether excess cash should be redeployed into similarly broad exposure.</p>
         
         <h3>Evidence</h3>
-        <ul><li>It is the largest non-cash exposure at 16.85%, still below the 25% single-position risk limit.</li><li>A target-date 2055 holding is aligned with a months-to-years core lane better than short-term tactical positions.</li><li>The market backdrop is volatile, supporting gradualism rather than aggressive concentration.</li></ul>
+        <ul><li>It is the largest non-cash exposure at n/a, still below the 25% single-position risk limit.</li><li>A target-date 2055 holding is aligned with a months-to-years core lane better than short-term tactical positions.</li><li>The market backdrop is volatile, supporting gradualism rather than aggressive concentration.</li></ul>
         <h3>Risks</h3>
         <ul><li>The fund may already include equity and bond exposures that overlap with other holdings.</li><li>Target-date glide path may not match the investor&#x27;s true risk tolerance or liquidity needs.</li><li>Ticker-like identifier may require verification before any future allocation change.</li></ul>
         <p><strong>Next review:</strong> 2026-07-06 after the holiday-shortened week closes</p>
-        <p class="small muted"><strong>Sources:</strong> <a href="https://docs.google.com/spreadsheets/d/16RbYTLEiV8NER7pBYSU96CkQlCjB0bwnQKdrgvtJ4gg/edit">Fidelity Google Sheet</a>, <a href="https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-stock-market-tipping-point-eli-lilly-tesla/">IBD market week ahead</a></p>
+        <p class="small muted"><strong>Sources:</strong> Sanitized local portfolio source, <a href="https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-stock-market-tipping-point-eli-lilly-tesla/">IBD market week ahead</a></p>
       </div>
     
       </section>
@@ -301,7 +293,7 @@
 
     <section class="band">
       <h2>Data Gaps</h2>
-      <ul><li>Schwab ingestion is disabled in config, so portfolio context is Fidelity-only.</li><li>The report uses a weekend snapshot and public market/news sources; there is no live regular-session tape because Saturday, June 27, 2026 is not a U.S. regular trading session.</li><li>Portfolio exposure labels include mutual-fund/CUSIP-like symbols that may need mapping before future ticker-level analytics.</li><li>This migrated MVP-3 record demonstrates portfolio-blind source intake plus separate strategy funnels but does not include a fresh broad Reddit or Medium sweep.</li><li>This migrated MVP-3 record keeps portfolio holdings out of source intake and strategy discovery; portfolio context is applied only in final recommendations.</li></ul>
+      <ul><li>Schwab ingestion is disabled in config, so portfolio context is sanitized.</li><li>The report uses a weekend snapshot and public market/news sources; there is no live regular-session tape because Saturday, June 27, 2026 is not a U.S. regular trading session.</li><li>Portfolio exposure labels include mutual-fund/CUSIP-like symbols that may need mapping before future ticker-level analytics.</li><li>This migrated MVP-3 record demonstrates portfolio-blind source intake plus separate strategy funnels but does not include a fresh broad Reddit or Medium sweep.</li><li>This migrated MVP-3 record keeps portfolio holdings out of source intake and strategy discovery; portfolio context is applied only in final recommendations.</li></ul>
     </section>
   </main>
 </body>
